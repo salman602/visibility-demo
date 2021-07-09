@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 150px;
+            border: 1px solid navy;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        #box-1 {
+            background-color: yellowgreen;
+            /* when we use visibility: hidden;
+            The div/content goes invisible but it still takes it place.  */
+            visibility: hidden;
+        }
+
+        #box-2 {
+            background-color: magenta;
+
+        }
+
+        #box-3 {
+            background-color: crimson;
+            /* when we use display: none; The div/content goes invisible but it has no place in the content. If we want to show it's content again in the display we will use display: inline; or display: block; property as  required. */
+            display: none;
+        }
+
+        #box-4 {
+            background-color: purple;
+        }
+
+        img {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-1"><a href="#">google e jao</a></div>
+    <div class="box" id="box-2">box-2</div>
+    <div class="box" id="box-3">box-3</div>
+    <div class="box" id="box-4">box-4</div>
+
+
+    <img src="img/me.png" alt="">
+</body>
+
+</html>
